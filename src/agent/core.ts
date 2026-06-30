@@ -1,4 +1,4 @@
-# Agent Framework — Core types and runtime
+// Agent Framework — Core types and runtime
 
 export type AgentStatus = 'idle' | 'running' | 'paused' | 'error';
 
