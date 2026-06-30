@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+cache/
+artifacts/
+broadcast/
+out/
+*.log
+.DS_Store

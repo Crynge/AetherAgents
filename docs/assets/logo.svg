@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 120">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A237E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0D47A1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="120" rx="16" fill="url(#g)"/>
+  <text x="40" y="72" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white">AetherAgents</text>
+  <text x="40" y="100" font-family="Arial, sans-serif" font-size="16" fill="#90CAF9">AI Agent Framework</text>
+  <circle cx="530" cy="60" r="25" fill="none" stroke="#90CAF9" stroke-width="3" opacity="0.6"/>
+  <circle cx="530" cy="60" r="10" fill="#90CAF9" opacity="0.8"/>
+</svg>

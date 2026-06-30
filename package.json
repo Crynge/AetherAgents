@@ -1,0 +1,47 @@
+{
+  "name": "@aetheragents/core",
+  "version": "0.1.0",
+  "description": "Autonomous AI agent framework for prediction markets and decentralized trading",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "dev": "tsx watch src/web/server.ts",
+    "agents:start": "tsx src/agent/runtime.ts",
+    "contracts:deploy": "forge script script/Deploy.s.sol",
+    "contracts:test": "forge test"
+  },
+  "keywords": [
+    "ai-agents",
+    "prediction-markets",
+    "defi",
+    "autonomous-trading",
+    "multi-agent",
+    "mcp",
+    "model-context-protocol",
+    "smart-contracts",
+    "solidity",
+    "web3",
+    "decentralized",
+    "market-making",
+    "arbitrage",
+    "trading-bot",
+    "blockchain",
+    "ethereum",
+    "foundry",
+    "typescript",
+    "agent-framework"
+  ],
+  "dependencies": {
+    "ethers": "^6.12.0",
+    "express": "^4.19.0",
+    "zod": "^3.23.0",
+    "pino": "^9.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "vitest": "^1.6.0",
+    "tsx": "^4.7.0"
+  }
+}
