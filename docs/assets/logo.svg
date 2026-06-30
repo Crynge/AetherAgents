@@ -1,13 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 120">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 460" fill="none">
   <defs>
-    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1A237E;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#0D47A1;stop-opacity:1" />
+    <linearGradient id="aa-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#2563EB"/>
     </linearGradient>
   </defs>
-  <rect width="600" height="120" rx="16" fill="url(#g)"/>
-  <text x="40" y="72" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white">AetherAgents</text>
-  <text x="40" y="100" font-family="Arial, sans-serif" font-size="16" fill="#90CAF9">AI Agent Framework</text>
-  <circle cx="530" cy="60" r="25" fill="none" stroke="#90CAF9" stroke-width="3" opacity="0.6"/>
-  <circle cx="530" cy="60" r="10" fill="#90CAF9" opacity="0.8"/>
+  <polygon points="200,25 346,112 346,287 200,375 54,287 54,112" fill="url(#aa-bg)" stroke="#A78BFA" stroke-width="3"/>
+  <circle cx="200" cy="200" r="8" fill="#FDE047"/>
+  <circle cx="155" cy="165" r="6" fill="#A78BFA"/>
+  <circle cx="245" cy="165" r="6" fill="#A78BFA"/>
+  <circle cx="155" cy="235" r="6" fill="#A78BFA"/>
+  <circle cx="245" cy="235" r="6" fill="#A78BFA"/>
+  <line x1="200" y1="200" x2="155" y2="165" stroke="#C4B5FD" stroke-width="1.5" opacity="0.6"/>
+  <line x1="200" y1="200" x2="245" y2="165" stroke="#C4B5FD" stroke-width="1.5" opacity="0.6"/>
+  <line x1="200" y1="200" x2="155" y2="235" stroke="#C4B5FD" stroke-width="1.5" opacity="0.6"/>
+  <line x1="200" y1="200" x2="245" y2="235" stroke="#C4B5FD" stroke-width="1.5" opacity="0.6"/>
+  <line x1="155" y1="165" x2="245" y2="165" stroke="#C4B5FD" stroke-width="1.5" opacity="0.4"/>
+  <line x1="155" y1="235" x2="245" y2="235" stroke="#C4B5FD" stroke-width="1.5" opacity="0.4"/>
+  <line x1="155" y1="165" x2="245" y2="235" stroke="#C4B5FD" stroke-width="1" opacity="0.3"/>
+  <line x1="245" y1="165" x2="155" y2="235" stroke="#C4B5FD" stroke-width="1" opacity="0.3"/>
+  <text x="200" y="425" font-family="'Segoe UI', Arial, sans-serif" font-size="36" font-weight="300" fill="#8B5CF6" text-anchor="middle" letter-spacing="6">AETHER</text>
+  <text x="200" y="455" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="300" fill="#6366F1" text-anchor="middle" letter-spacing="4">AGENTS</text>
 </svg>

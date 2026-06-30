@@ -1,6 +1,5 @@
 <div align="center">
-  <img src="docs/assets/logo.svg" alt="AetherAgents" width="600">
-  <h1>AetherAgents</h1>
+  <img src="docs/assets/logo.svg" alt="AetherAgents" width="300">
   <p><strong>Autonomous AI Agent Framework for Prediction Markets & Decentralized Trading</strong></p>
   <p>Multi-agent coordination · On-chain settlement · MCP integration · Real-time market making</p>
 
